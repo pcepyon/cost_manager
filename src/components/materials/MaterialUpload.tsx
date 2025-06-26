@@ -127,7 +127,7 @@ export function MaterialUpload({ isOpen, onClose, onSuccess }: MaterialUploadPro
   }
 
   return (
-    <Modal isOpen={isOpen} onClose={handleClose} size="lg">
+    <Modal isOpen={isOpen} onClose={handleClose} size="lg" title="재료 CSV 업로드">
       <div className="p-6">
         <h2 className="text-xl font-semibold text-gray-900 mb-6">
           재료 CSV 업로드

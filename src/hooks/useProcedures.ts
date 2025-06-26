@@ -362,7 +362,7 @@ export function useProcedureStats() {
         throw new Error('시술 통계를 불러올 수 없습니다.')
       }
 
-      const procedures = data as Procedure[]
+      const procedures = data as unknown as Procedure[]
       
       return {
         total_procedures: procedures.length,
